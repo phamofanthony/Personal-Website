@@ -11,7 +11,6 @@ function Home() {
         <h2>Xin chào, my name is Anthony.</h2>
         <div className="prompt">
           <p>
-            {" "}
             I'm a software developer who is passionate about learning and making
             valuable contributions.
           </p>
