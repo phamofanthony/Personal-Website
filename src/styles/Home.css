@@ -68,6 +68,41 @@
         width: 80%;
     }
 
+    .prompt svg {
+    font-size: 30px;
+    margin: 5px;
+    color: white;
+    }
+
+    .skills {
+        text-align: center;
+    }
+
+    .list {
+        padding: 0;
+    }
+
+    .skills h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .about h2 {
+        font-size: 33px;
+    }
+
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .prompt svg {
+        font-size: 25px;
+        margin: 5px;
+        color: white;
+    }
     .skills {
         text-align: center;
     }
