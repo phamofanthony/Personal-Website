@@ -1,2 +1,5 @@
 node_modules/
 *.pack
+*.pack
+*.pack
+node_modules/.cache/default-development/1.pack
