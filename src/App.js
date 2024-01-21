@@ -5,8 +5,13 @@ import Projects from './pages/Projects'
 import Experience from './pages/Experience'
 import AboutMe from './pages/AboutMe'
 import Navbar from './components/Navbar'
+import React, { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    document.title = "Anthony Pham";
+    // Change "New Tab Title" to your desired title
+  }, []);
   return (
     <div className="App">
       <Router>
