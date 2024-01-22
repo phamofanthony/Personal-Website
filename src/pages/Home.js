@@ -23,7 +23,9 @@ function Home() {
           <a href="https://www.linkedin.com/in/phamofanthony/">
             <LinkedInIcon />
           </a>
-          <a href="https://github.com/phamofanthony"><GithubIcon /></a>
+          <a href="https://github.com/phamofanthony">
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
@@ -31,9 +33,7 @@ function Home() {
         <o1 className="list">
           <li className="item">
             <h2>Front-End</h2>
-            <span>
-              Telerik, Blazor, ReactJS, HTML, CSS, NPM, MaterialUI, Yarn
-            </span>
+            <span>Telerik, Blazor, ReactJS, HTML, CSS, NPM, Yarn</span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
@@ -49,8 +49,8 @@ function Home() {
           <li className="item">
             <h2>Tools</h2>
             <span>
-              Azure, Airflow, MicroStrategy, Git, Visual Studio, DbVisualizer,
-              Postman, Fiddler Everywhere, Microsoft Office
+              Azure, Airflow, Git, Visual Studio, DbVisualizer, Postman, Fiddler
+              Everywhere, MicroStrategy, Microsoft Office
             </span>
           </li>
         </o1>
