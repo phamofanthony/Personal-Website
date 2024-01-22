@@ -1,14 +1,15 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import "../styles/Footer.css"
 
 function Footer() {
   return (
     <div className="footer">
-        <div className="socialMedia">
-            <LinkedInIcon />
-        </div>
-    </div>);
+      <div className="socialMedia">
+        <p>Contact:</p>
+        <p>phamofanthony@gmail.com <br></br> 479-522-7055</p>
+      </div>
+    </div>
+  );
 }
 
 export default Footer;
