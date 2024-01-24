@@ -10,12 +10,12 @@ function Home() {
       <div className="about">
         <div>
           <p>
-            <h2>Xin chào, my name is Anthony.</h2>
+            <h2>Howdy, I'm Anthony.</h2>
           </p>
         </div>
         <div className="prompt">
           <p>
-            I'm a software developer who is passionate about learning and making
+            I'm a software developer who is passionate about growing his skills and making
             valuable contributions.
           </p>
         </div>
