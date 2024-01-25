@@ -5,7 +5,7 @@ function ProjectItem({image, name, id}) {
     const navigate = useNavigate()
     return (
         <div className="projectItem" onClick={() => {navigate("/projects/" + id)}}>
-            <div style={{ backgroundImage: `url(${image})` }} className = "bgImage" />
+            <div style={{backgroundImage: `url(${image})`, backgroundSize: 'contain', backgroundPosition: 'center', height: '300px'}} className = "bgImage" />
             <h1>{name}</h1>
         </div>
     )
