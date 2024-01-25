@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
 }
 
@@ -22,6 +23,7 @@
 .project p {
     font-size: 35px;
     color: #3e497a;
+    width: 75%;
 }
 
 .project svg {
