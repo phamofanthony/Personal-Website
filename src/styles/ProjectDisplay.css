@@ -1,11 +1,14 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
+    min-height: calc(100vh - 100px);
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    padding: 20px;
+    flex-shrink: 0;
+    display: flex;
+    flex-grow: 1;
 }
 
 .project h1 {
@@ -14,9 +17,15 @@
     font-size: 40px;
 }
 
-.project img {
+.media img {
     width: 300px;
     height: auto;
+    border-radius: 10px;
+}
+
+.media video {
+    width: auto;
+    height: 60vh;
     border-radius: 10px;
 }
 
