@@ -15,14 +15,15 @@ function Home() {
         </div>
         <div className="prompt">
           <p>
-            I'm a software developer who is passionate about growing his skills and making
-            valuable contributions.
+            I'm a software developer who is passionate about growing his skills
+            and making valuable contributions to teams.
           </p>
         </div>
         <div className="prompt">
           <a href="https://www.linkedin.com/in/phamofanthony/">
             <LinkedInIcon />
           </a>
+          &nbsp;&nbsp;&nbsp;
           <a href="https://github.com/phamofanthony">
             <GithubIcon />
           </a>
