@@ -21,7 +21,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
-    gap: 2vw
+    gap: 1vw
 }
 
 .projectItem {
@@ -44,7 +44,7 @@
 .projectItem .bgImage {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 100%;
+    width: auto;
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;

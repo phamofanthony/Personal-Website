@@ -15,7 +15,7 @@ function ProjectDisplay() {
         {project.mediaType === "image" ? (
           <img src={project.media} alt="Visual of my project." />
         ) : (
-          <video autoPlay muted controls>
+          <video autoPlay muted controls playsinline >
             <source src={project.media} type="video/mp4" />
             Your browser does not support the video tag.
           </video>

@@ -2,8 +2,8 @@ import PersonalSite from "../assets/personal_site.jpg"
 import VSASite from "../assets/vsa_site.jpg";
 import Nuqleous from "../assets/nuq.jpg";
 import UARK from "../assets/UARK.jpg";
-import Capstone from "../assets/capstone.mp4";
-import FoodMap from "../assets/foodmap.mp4";
+import Capstone from "../assets/capstone.mp4#t=0.1";
+import FoodMap from "../assets/foodmap.mp4#t=0.1";
 
 export const ProjectList = [
   {

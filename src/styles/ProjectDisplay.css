@@ -5,7 +5,6 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding: 20px;
     flex-shrink: 0;
     display: flex;
     flex-grow: 1;
@@ -14,7 +13,7 @@
 .project h1 {
     margin-top: 50px;
     color: #3e497a;
-    font-size: 40px;
+    font-size: 5vh;
 }
 
 .media img {
@@ -30,7 +29,7 @@
 }
 
 .project p {
-    font-size: 35px;
+    font-size: 3vh;
     color: #3e497a;
     width: 75%;
 }
@@ -38,4 +37,12 @@
 .project svg {
     font-size: 60px;
     color: #3e497a;
+}
+
+@media only screen and (max-width: 1100px) {
+    .media video {
+            width: 100%;
+            height: 30vh;
+            border-radius: 10px;
+        }
 }
