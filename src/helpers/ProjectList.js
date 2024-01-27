@@ -1,9 +1,11 @@
 import PersonalSite from "../assets/personal_site.jpg"
 import VSASite from "../assets/vsa_site.jpg";
 import Nuqleous from "../assets/nuq.jpg";
-import UARK from "../assets/UARK.jpg";
+import CampusNavigation from "../assets/campusnavigation.jpg";
 import Capstone from "../assets/capstone.mp4#t=0.1";
 import FoodMap from "../assets/foodmap.mp4#t=0.1";
+import BridgeCrossing from "../assets/bridgecrossing.mp4#t=8";
+import Pacman from "../assets/pacman.mp4";
 
 export const ProjectList = [
   {
@@ -48,8 +50,8 @@ export const ProjectList = [
   },
   {
     name: "AI Pacman Solver",
-    media: UARK,
-    mediaType: "image",
+    media: Pacman,
+    mediaType: "video",
     desc: "In my artifical intelligence class, we created an application in Python that automatically solved Pacman mazes using a variety of searching algorithms, including BFS, DFS, UCS, and A*. Depending on the algorithm, the simulation provided a score that rated how efficient the path was.",
     skills: "Python, Pygame, Searching algorithms",
     github: "",
@@ -65,7 +67,7 @@ export const ProjectList = [
   },
   {
     name: "UARK Campus Navigation Program",
-    media: UARK,
+    media: CampusNavigation,
     mediaType: "image",
     desc: "In my algorithms course, I created this application to map out directions around campus based on various searching and sorting algorithms. Depending on the algorithm used, it would display the path on a map along with the length of that path.",
     skills: "C++, Searching algorithms, Sorting algorithms, Optimization",
@@ -73,8 +75,8 @@ export const ProjectList = [
   },
   {
     name: "Bridge Crossing Simulation",
-    media: UARK,
-    mediaType: "image",
+    media: BridgeCrossing,
+    mediaType: "video",
     desc: "In my operating systems class, I created a multithreaded bridge crossing simulation. A large number of vehicles would arrive at a bridge (each modeled by a thread) and according to a set list of traffic rules, the vehicles could only cross in a certain order. This project taught me key multithreading concepts like mutexes and semaphores.",
     skills: "C, Pthreads, Multithreaded development, Unix",
     github: "",
