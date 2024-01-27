@@ -29,6 +29,7 @@ function ProjectItem({ media, mediaType, name, id }) {
             id={`video-${id}`}
             className="bgImage"
             preload="metadata"
+            disableRemotePlayback
           >
             <source src={media} type="video/mp4" />
             Your browser does not support the video tag.
