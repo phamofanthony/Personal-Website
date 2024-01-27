@@ -28,7 +28,7 @@ export const ProjectList = [
     name: "Nuqleous Status Slack Bot",
     media: Nuqleous,
     mediaType: "image",
-    desc: "I developed this Slack bot for Nuqleous that pulls in a variety of information from different databases and provides a succinct summaries of system health. It provides hourly summaries of data-loading progression in addition to semi-hourly summaries of current failures in Airflow that require attention. I learned a great deal from this project because it meshed together so many different technologies (API's, SQL queries, Airflow, and more).",
+    desc: "I developed a Slack bot for Nuqleous that pulls in a variety of information from different databases and provides a succinct summaries of system health. It provides hourly summaries of data-loading progression in addition to semi-hourly summaries of current failures in Airflow that require attention. I learned a great deal from this project because it meshed together so many different technologies (API's, SQL queries, Airflow, and more).",
     skills: "Python, Slack API, Airflow API, PostgreSQL, Snowflake",
     github: "",
   },
