@@ -30,6 +30,8 @@ function ProjectItem({ media, mediaType, name, id }) {
             className="bgImage"
             preload="metadata"
             disableRemotePlayback
+            disablePictureInPicture
+            controlsList="nodownload"
           >
             <source src={media} type="video/mp4" />
             Your browser does not support the video tag.
