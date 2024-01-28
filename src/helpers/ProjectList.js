@@ -60,9 +60,9 @@ export const ProjectList = [
     name: "Food Map Mobile Application",
     media: FoodMap,
     mediaType: "video",
-    desc: "In my mobile application development class, my group created a network app based around food. In essence, users can friend each other and view on a map where all their friends ate at and detailed reviews including a star rating, description, and images of the food. It was developed specifically for Android utilizing design methodologies like MVVM and Android Room. Information was all stored in the cloud and we had secure user authentication",
+    desc: "In my mobile application development class, my group created a network app based around food. In essence, users can friend each other and view on a map where all their friends ate at and detailed reviews including a star rating, description, and images of the food. It was developed specifically for Android utilizing design methodologies like MVVM and Android Room. Information was all stored in the cloud via Firebase Firestore and we had secure user authentication via Firebase Authentication.",
     skills:
-      "Kotlin, XAML, Firebase FireStore, NoSQL, Android development, Android Studio",
+      "Kotlin, XAML, Firebase FireStore, NoSQL, Firebase Authentication, Android development, Android Studio",
     github: "https://github.com/phamofanthony/Food-Map",
   },
   {
